@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marvel Avengers</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX2PRFP3RH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0JTN8VLMF9');
+</script>
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Marvel Avengers</h1>
+      <nav>
+        <a href="#characters">Characters</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="characters" class="section">
+    <div class="container">
+      <h2>Core Avengers</h2>
+      <div class="cards">
+        <!-- Iron Man -->
+        <div class="card" onclick="showDetails('ironman')">
+          <img src="images/ironman.jpg" alt="Iron Man" />
+          <h3>Iron Man</h3>
+          <p>Tony Stark, a genius billionaire, fights in high-tech armor to save the world.</p>
+          <div class="details" id="ironman">
+            <p><strong>Real Name:</strong> Tony Stark</p>
+            <p><strong>Powers:</strong> Powered Armor Suit, Genius Intellect, Tech Weapons</p>
+            <p><strong>Affiliations:</strong> Avengers, Stark Industries</p>
+          </div>
+        </div>
+
+        <!-- Captain America -->
+        <div class="card" onclick="showDetails('captainamerica')">
+          <img src="images/captainamerica.jpg" alt="Captain America" />
+          <h3>Captain America</h3>
+          <p>Steve Rogers, the super soldier, leads with honor and a vibranium shield.</p>
+          <div class="details" id="captainamerica">
+            <p><strong>Real Name:</strong> Steve Rogers</p>
+            <p><strong>Powers:</strong> Super Soldier Serum, Shield Mastery, Leadership</p>
+            <p><strong>Affiliations:</strong> Avengers, S.H.I.E.L.D.</p>
+          </div>
+        </div>
+
+        <!-- Thor -->
+        <div class="card" onclick="showDetails('thor')">
+          <img src="images/thor.jpg" alt="Thor" />
+          <h3>Thor</h3>
+          <p>The God of Thunder from Asgard wields Mjölnir to protect all realms.</p>
+          <div class="details" id="thor">
+            <p><strong>Real Name:</strong> Thor Odinson</p>
+            <p><strong>Powers:</strong> Thunder, Mjölnir, Godlike Strength, Immortality</p>
+            <p><strong>Affiliations:</strong> Avengers, Asgard</p>
+          </div>
+        </div>
+
+        <!-- Hulk -->
+        <div class="card" onclick="showDetails('hulk')">
+          <img src="images/hulk.jpg" alt="Hulk" />
+          <h3>Hulk</h3>
+          <p>Bruce Banner transforms into the powerful green giant when enraged.</p>
+          <div class="details" id="hulk">
+            <p><strong>Real Name:</strong> Bruce Banner</p>
+            <p><strong>Powers:</strong> Super Strength, Regeneration, Gamma Radiation</p>
+            <p><strong>Affiliations:</strong> Avengers, S.H.I.E.L.D.</p>
+          </div>
+        </div>
+
+        <!-- Hawkeye -->
+        <div class="card" onclick="showDetails('hawkeye')">
+          <img src="images/hawkeye.jpg" alt="Hawkeye" />
+          <h3>Hawkeye</h3>
+          <p>Clint Barton is a master archer with unerring aim and tactical skills.</p>
+          <div class="details" id="hawkeye">
+            <p><strong>Real Name:</strong> Clint Barton</p>
+            <p><strong>Powers:</strong> Archery, Acrobatics, Combat Strategy</p>
+            <p><strong>Affiliations:</strong> Avengers, S.H.I.E.L.D.</p>
+          </div>
+        </div>
+
+        <!-- Black Widow -->
+        <div class="card" onclick="showDetails('blackwidow')">
+          <img src="images/blackwidow.jpg" alt="Black Widow" />
+          <h3>Black Widow</h3>
+          <p>Natasha Romanoff is a skilled spy, fighter, and former S.H.I.E.L.D. agent.</p>
+          <div class="details" id="blackwidow">
+            <p><strong>Real Name:</strong> Natasha Romanoff</p>
+            <p><strong>Powers:</strong> Martial Arts, Espionage, Acrobatics</p>
+            <p><strong>Affiliations:</strong> Avengers, S.H.I.E.L.D.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Marvel</h2>
+      <p>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes several television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters..</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: marvelteam@example.com</p>
+      <p>Instagram: @marvel_avengers</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Marvel Fan Site. Characters & images © Marvel Studios.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
